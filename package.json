@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "packageManager": "npm@10.8.2",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -18,10 +21,10 @@
     "eas:build": "eas build -p android --profile preview"
   },
   "dependencies": {
-    "@capacitor/android": "^8.5.0",
-    "@capacitor/camera": "^8.2.4",
-    "@capacitor/cli": "^8.5.0",
-    "@capacitor/core": "^8.5.0",
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/camera": "^6.1.2",
+    "@capacitor/cli": "^6.2.0",
+    "@capacitor/core": "^6.2.0",
     "@google/genai": "^2.4.0",
     "@tailwindcss/vite": "^4.1.14",
     "@types/canvas-confetti": "^1.9.0",
@@ -37,7 +40,7 @@
     "react-dom": "^19.0.1"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
+    "@types/node": "^20.17.0",
     "autoprefixer": "^10.4.21",
     "esbuild": "^0.25.0",
     "tailwindcss": "^4.1.14",

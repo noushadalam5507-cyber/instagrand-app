@@ -11,7 +11,8 @@
       "distribution": "internal",
       "node": "20.18.0",
       "env": {
-        "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
+        "NPM_CONFIG_LEGACY_PEER_DEPS": "true",
+        "NPM_CONFIG_ENGINE_STRICT": "false"
       },
       "android": {
         "buildType": "apk"
@@ -20,7 +21,8 @@
     "production": {
       "node": "20.18.0",
       "env": {
-        "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
+        "NPM_CONFIG_LEGACY_PEER_DEPS": "true",
+        "NPM_CONFIG_ENGINE_STRICT": "false"
       },
       "android": {
         "buildType": "apk"
