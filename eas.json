@@ -2,6 +2,7 @@
   "cli": {
     "version": ">= 12.0.0"
   },
+  "projectId": "7bff0ece-30fa-4008-8e67-d86b976077da",
   "build": {
     "development": {
       "developmentClient": true,

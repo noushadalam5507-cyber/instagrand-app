@@ -3,6 +3,7 @@
     "name": "NovaGrand Pro",
     "slug": "novagrand-pro",
     "version": "1.0.0",
+    "entryPoint": "./App.js",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
@@ -47,6 +48,11 @@
         "android.permission.BLUETOOTH",
         "android.permission.BLUETOOTH_CONNECT"
       ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7bff0ece-30fa-4008-8e67-d86b976077da"
+      }
     }
   }
 }
