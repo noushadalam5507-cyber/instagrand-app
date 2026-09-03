@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "NovaGrand Pro",
-    "slug": "novagrand-pro",
+    "name": "NovaGrand Premium"
+  "slug": "novagrand-premium"
     "version": "1.0.0",
     "entryPoint": "./App.js",
     "orientation": "portrait",
