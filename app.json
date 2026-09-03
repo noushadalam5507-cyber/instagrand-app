@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "NovaGrand Premium"
+    ,"name": "NovaGrand Premium",
   "slug": "novagrand-premium"
     "version": "1.0.0",
     "entryPoint": "./App.js",
